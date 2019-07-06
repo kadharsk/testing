@@ -4,7 +4,7 @@ MAINTAINER kadhar <vallikadhar@gmail.com>
 
 WORKDIR apt-get  -y update 
 
-RUN apt-get install -y node.js
+RUN apt-get install -y nodejs
 
 RUN apt-get install -y npm
 
